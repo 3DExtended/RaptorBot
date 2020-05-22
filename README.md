@@ -20,7 +20,9 @@ All the features currently implemented can be found here:
   - Asset monitoring on [Binance](https://www.binance.com/).
   The plan here is, to provide a CLI tool for monitoring your assets both as a current itself and the estimated worth of each asset in a selectable base currency. 
   - Manual trading of assets.
-  We want a tool that allows us to make real transactions using the [Binance](https://www.binance.com/) exchange in a manual manner. This means, that our tool has to parse CLI commands and translate them into buy or sell commands for different crypto coins. 
+  We want a tool that allows us to make real transactions using the [Binance](https://www.binance.com/) exchange in a manual manner. This means, that our tool has to parse CLI commands and translate them into buy or sell commands for different crypto coins.
+  - Make a paper trading layer
+  We want to be able to simulate trading. Thus, we want to use the current asset prices from an exchange and simulate trading on it without performing real transactions.
   - Automated tranding based on strategies
   We want the ability to write a strategy, which determines when to sell or to buy based which asset.
   - Backtest a given strategy
