@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from .context import sample
-
 import unittest
+
+from .context import raptorbot
 
 
 class BasicTestSuite(unittest.TestCase):
