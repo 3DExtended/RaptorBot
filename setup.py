@@ -13,7 +13,7 @@ setup(
     version='0.0.0',
     description='RaptorBot',
     long_description=readme,
-    author='Kenneth Reitz',
+    author='Peter Esser',
     author_email='me@kennethreitz.com',
     url='https://github.com/3DExtended/RaptorBot',
     license=license,
