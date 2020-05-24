@@ -11,7 +11,7 @@ class TradeData:
     buyerOrderId: int
     sellerOrderId: int
     tradeTime: int
-    isBuyerMarketMaker: bool
+    isBuyerMarketMaker: bool # If isBuyerMarketMaker is true then that means a seller fulfilled a buy order. The buyer created the order and waited for someone to fulfill it.
     ignore: bool
 
     def __init__(self, data: dict, sourceBinance: bool):
