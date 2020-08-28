@@ -1,0 +1,2 @@
+class IExchange(object):
+    pass

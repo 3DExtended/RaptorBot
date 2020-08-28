@@ -74,6 +74,14 @@ conn_key1 = bm.start_trade_socket('BTCUSDT', process_binance_message) # returns 
 conn_key2 = bm.start_symbol_ticker_socket('BTCUSDT', process_binance_message) # returns "24hrTicker" objects
 conn_key3 = bm.start_user_socket(process_binance_message)
 
+
+# test some stuff. todo remove this.
+info = client.get_account()
+status = client.get_account_status()
+fees = client.get_trade_fee()
+fee = client.get_trade_fee(symbol='BTCUSDT')
+details = client.get_asset_details()
+
 # start any sockets here, i.e a trade socket
 # then start the socket manager
 bm.start()
